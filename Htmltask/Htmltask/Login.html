@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>login page</title>
+
+<style>
+    body {
+        background-color: lightgreen;
+        text-align:center;
+    }
+    </style>
+    <script>
+        function check()
+        {
+            var name = document.login.username.value;
+            var psw = document.login.psw.value;
+            if (name == "rohitha" && psw=="123")
+            {
+                alert("successful login");
+                return true;
+            }
+            else{
+                alert("login failed");
+                return false;
+            }
+        }
+    </script>
+    </head>
+    <body>
+        <img src="train.jpg" align="left" height="100" width="100">
+         <form name="login" action="searchtrains.html" onsubmit="return check()">
+           <h1>SIGN IN</h1>
+           UserName:
+            <input type="text" name="username" />
+            <br />
+            <br />
+            Password:
+            <input type="password" name="psw" />
+               <br />
+               <br/>
+             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          <input type="submit"value="submit" />
+
+              <br />
+             <br />
+             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            Forgot <a href="username.html">username</a>
+             <a href="password.html">password</a>
+                    <br />
+                    <br />
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    <a href="Registration.html" style="color:red">New User Registration</a>
+           </form>
+            </body>
+            </html>

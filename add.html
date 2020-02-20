@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<script type="text/javascript">
+function add()
+ {
+   var a,b,c;
+    a=Number(document.getElementById("first").value);
+    b=Number(document.getElementById("second").value);
+    c=a+b;
+    if(isNaN(a))
+        {
+          document.writeln("not a number");
+         }
+    document.getElementById("answer").value=c;
+    window.alert('sum of'+a+'and'+b+'='+c);
+  }
+</script>
+</head>
+<body>
+Enter the first number:<input type=text id="first"><br>
+Enter the second number:<input type=text id="second"><br>
+<button onClick="add()">ADD</button>
+<input id="answer">
+</body>
+</html>

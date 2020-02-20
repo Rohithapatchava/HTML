@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+   
+</head>
+
+        <body align="center" bgcolor="pink">
+            <form name="vform"  onsubmit="return Validate()" method="post">
+
+                <table align="center" height="350" width="350">
+                    <h2><u>REGISTRATION PAGE</u></h2>
+                    <br></br>
+
+                    <tr>
+                        <th>ENTER THE NAME:</th>
+                        <td><input type="text" name="TEXTNAME"></td>
+                    </tr>
+
+                    <tr>
+                        <th>DATE OF BIRTH:</th>
+                        <td><input type="text" name="dob"></td>
+                    </tr>
+
+
+
+                      <tr>
+                        <th>GENDER:</th>
+                        <td>
+                            Male:<input type="radio" name="gender">
+                            Female:<input type="radio" name="gender">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th>State:</th>
+                        <td>
+                            <select name="state">
+                                <option value="Andhra pradesh ">Andhra pradesh </option>
+                                <option value="Tamil nadu ">Tamil nadu</option>
+                                <option value="Maharashtra ">Maharashtra</option>
+                                <option value="Kerala">Kerala</option>
+                                <option value="Punjab">Punjab</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th>Mobile number:</th>
+                        <td>
+                       <input type="text" name="mobile" />
+                            </td>
+                    </tr>
+                    <tr>
+                        <th>Email Id:</th>
+                        <td>
+                            <input type="text" name="email" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Password:</th>
+                        <td>
+                            <input type="password" name="psw" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Confirm Password:</th>
+                        <td>
+                            <input type="password" name="pwd" />
+                        </td>
+                    </tr>
+
+
+                </table>
+                <br>
+                <input type="button" value="submit"/>
+                <input type="button" value="Reset">
+            </form>
+
+</body>
+</html>
